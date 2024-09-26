@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: #CECECE;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    width: 100%;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a img{
+    width: 100px;
+    margin: 20px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li a{
+    color: rgba(255, 255, 255, 0.555);
+    margin: 20px;
+    transition: .2s;
+    display: inline-block;
+}
+
+header nav ul li a:hover{
+    transform: scale(1.05);
+    color: white;
+}
+
+.welcome{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://cdn.pixabay.com/photo/2020/04/18/20/01/background-5060836_1280.jpg');
+     padding: 150px 4%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+.welcome h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.about{
+    padding: 100px 4%;
+}
+
+.portifolio h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+.about h2{
+    color: black;
+    text-align: center;
+    font-weight: 400;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.photo-about img{
+    width: 400px;
+    transition: .2s;
+}
+
+.photo-about img:hover{
+    transform: scale(1.05);
+}
+
+.paragrafo{
+    width: 35%;
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.servicos{
+    padding: 100px 4%;
+}
+
+.servicos h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+.flex-2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    transition: .2s;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.container:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px black;
+}
+
+.container img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.container h2{
+    font-weight: 400;
+    padding: 30px;
+}
+
+.container p{
+    padding: 20px;
+    text-align: center;
+}
+
+.linha{
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+.flex-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato{
+    padding-bottom: 30px;
+}
+
+.contato h2{
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.contato form{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    padding-bottom: 30px;
+}
+.contato form label{
+    font-weight: 300;
+    padding: 15px;
+}
+
+.contato form input{
+    padding: 5px 220px;
+    text-align: center;
+}
+
+.contato form textarea{
+    padding: 7px 220px;
+}
+
+.contato form #submit{
+    padding: 7px 280px;
+    margin-top: 20px;
+    background-color: #242424;
+    color: white;
+}
+
+footer{
+    background-color: #242424;
+    padding: 20px;
+}
+
+footer div{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
